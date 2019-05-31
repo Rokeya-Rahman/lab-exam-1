@@ -1,0 +1,138 @@
+.logo{
+	height: 30px;
+	width: 100px;
+}
+
+.nav-manu {
+    color: #8569a3;
+    text-transform: uppercase;
+    background-color: transparent;
+    margin-left: 20px;
+    width: 90%;
+    text-align: center;
+	padding: 13px;
+}
+
+.nav-manu:hover {
+    color: #8569a3;
+}
+
+.nav-manu.active {
+    background-color: #ffa500;
+    color: white;
+}
+
+.menu-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.banner {
+    background-image: url(../img/banner.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.course-div {
+    box-shadow: 0 0 10px #dedede;
+}
+
+.section-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: #284f62;
+}
+
+.section-btn {
+    background-color: #f29e00;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.section-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.banner2 {
+    background-image: url(../img/banner2.jpg);
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.about-text {
+    color: #598dc1;
+    word-spacing: 3px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.trainer-div {
+    box-shadow: 0 0 5px gainsboro;
+}
+
+.img-div {
+    height:110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 5px solid #f3a833;
+    margin-top: -60px;
+    box-shadow: 0 0 5px gray;
+}
+
+.slides-navigation .prev,
+.slides-navigation .next {
+    height:60px;
+    width: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slides-navigation a.prev {
+    left: 20px;
+    background-image: url(../img/prev.png);
+}
+
+.slides-navigation a.next {
+    right: 20px;
+    background-image: url(../img/next.png);
+}
+
+.slides-pagination {
+    bottom: 30px;
+}
+
+.slides-pagination a {
+    border: 2px solid transparent;
+    background-color: #98a3bb;
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+}
+.slides-pagination a.current {
+    background: #dbe3f3;
+}
+
+.contact-btn {
+    background-color: #ffa500;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+}
+
+.contact-div {
+    box-shadow: 0 0 15px #e0e0e0;
+}
+
+.footer-div {
+    text-align: center;
+    background-color: #436393;
+    padding-top: 20px;
+    padding-bottom: 6px;
+    color: white;
+}
